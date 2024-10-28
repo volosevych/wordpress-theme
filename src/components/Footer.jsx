@@ -39,12 +39,12 @@ const Footer = () => {
                             <h3 className='font-bold'>Product</h3>
 
                             <ul className='text-gray pt-3 space-y-2'>
-                                <li><a href="#">Download</a></li>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Locations</a></li>
-                                <li><a href="#">Server</a></li>
-                                <li><a href="#">Countries</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <li><a href="/">Download</a></li>
+                                <li><a href="/">Pricing</a></li>
+                                <li><a href="/">Locations</a></li>
+                                <li><a href="/">Server</a></li>
+                                <li><a href="/">Countries</a></li>
+                                <li><a href="/">Blog</a></li>
                             </ul>
                         </div>
 
@@ -52,12 +52,12 @@ const Footer = () => {
                             <h3 className='font-bold'>Engage</h3>
 
                             <ul className='text-gray pt-3 space-y-2'>
-                                <li><a href="#">LaslesVPN ? </a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Tutorials</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="/">LaslesVPN ? </a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">Tutorials</a></li>
+                                <li><a href="/">About Us</a></li>
+                                <li><a href="/">Privacy Policy</a></li>
+                                <li><a href="/">Terms of Service</a></li>
                             </ul>
                         </div>
 
@@ -65,8 +65,8 @@ const Footer = () => {
                             <h3 className='font-bold'>Earn Money</h3>
 
                             <ul className='text-gray pt-3 space-y-2'>
-                                <li><a href="#">Affiliate</a></li>
-                                <li><a href="#">Become Partner</a></li>
+                                <li><a href="/">Affiliate</a></li>
+                                <li><a href="/">Become Partner</a></li>
                             </ul>
                         </div>
             </div>

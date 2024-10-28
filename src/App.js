@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import SignIn from "./pages/SignIn"; 
 
-import { Hero, Features, Pricing, Network } from './sections/index';
+import { Hero, Features, Pricing, Network, Carousel, Subscribe } from './sections/index';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
                   <Features />
                   <Pricing/>
                   <Network/>
+                  <Carousel/>
+                  <Subscribe/>
                 </>
               } 
             />
@@ -29,6 +32,7 @@ function App() {
             <Route path="/sign-in" element={<SignIn />} />
           </Routes>
         </main>
+        <Footer/>
       </div>
     </Router>
   );

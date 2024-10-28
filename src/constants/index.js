@@ -79,3 +79,45 @@ export const pricing = [
         ]
     }
 ];
+
+export const network = [
+    {
+        netflix: '/assets/companies/netflix.png',
+        reddit: '/assets/companies/reddit.png',
+        amazon: '/assets/companies/amazon.png',
+        discord: '/assets/companies/discord.png',
+        spotify: '/assets/companies/spotify.png',
+    }
+]
+
+export const carousel = [
+    {
+        id: '0',
+        photo: '/assets/carouselPhotos/photo.png',
+        name: 'Viezh Robert',
+        location: 'Warsaw, Poland',
+        comment: '“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.',
+        ratings: '4.5',
+        goldStar: '/assets/icons/star.png',
+    },
+
+    {
+        id: '1',
+        name: 'Yessica Christy',
+        photo: '/assets/carouselPhotos/photo-1.png',
+        location: 'Shanxi, China',
+        comment: '“I like it because I like to travel far and still can connect with high speed.”.',
+        ratings: '4.5',
+        goldStar: '/assets/icons/star.png',
+    },
+
+    {
+        id: '2',
+        name: 'Kim Young Jou',
+        photo: '/assets/carouselPhotos/photo-2.png',
+        location: 'Seoul, South Korea',
+        comment: '“This is very unusual for my business that currently requires a virtual private network that has high security.”.',
+        ratings: '4.5',
+        goldStar: '/assets/icons/star.png',
+    },
+]
